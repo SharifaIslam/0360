@@ -1,0 +1,293 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+.background_pic {
+  background-image: url(../img/205505444_181366320613284_1633381375786120283_n.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180vh;
+  background-position: center;
+}
+.main_header {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.main_header .header::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.header .logo {
+  width: 13%;
+  float: left;
+  box-sizing: border-box;
+}
+.header .menu {
+  width: 57%;
+  float: left;
+  box-sizing: border-box;
+}
+.header .menu li:hover {
+  transform: translate(0px, 9px);
+  transition: 1s;
+}
+.header .side-bar {
+  width: 30%;
+  float: left;
+  box-sizing: border-box;
+}
+.header img {
+  width: 140px;
+  margin: 20px;
+}
+.header .menu li {
+  color: white;
+  display: inline-block;
+  margin-top: 40px;
+  padding: 10px;
+}
+.header .side-bar button:nth-child(1) {
+  cursor: pointer;
+  width: 173px;
+  height: 56px;
+  background-color: #e35d11;
+  font-size: 16px;
+  border-radius: 5px;
+  color: white;
+  font-family: Avenir, Arial;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  border-style: none;
+}
+.header .side-bar button:nth-child(1):hover {
+  background-color: #00418d;
+}
+.header .side-bar button:nth-child(2) {
+  cursor: pointer;
+  width: 223px;
+  height: 56px;
+  background-color: #0095f3;
+  font-size: 16px;
+  border-radius: 5px;
+  color: white;
+  font-family: Avenir, Arial;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  border-style: none;
+}
+.header .side-bar button:nth-child(2):hover {
+  background-color: #e35d11;
+}
+
+.section {
+  width: 100%;
+}
+
+.section .head-line {
+  width: 500px;
+  color: white;
+  text-align: center;
+  margin: 60px auto 0px;
+}
+.section .head-line h2 {
+  font-size: 40px;
+  font-weight: 200;
+}
+.section .head-line h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+.section .pic {
+  text-align: center;
+  margin-top: 50px;
+}
+.pic img {
+  width: 970px;
+}
+.details {
+  width: 70%;
+  text-align: center;
+  margin: 40px auto 100px;
+}
+.details h1 {
+  font-size: 36px;
+  color: white;
+}
+.details p {
+  font-size: 20px;
+  color: white;
+  width: 75%;
+  line-height: 38px;
+  margin: 20px auto 40px;
+}
+.details a:nth-child(3) {
+  padding: 12px 40px;
+  background-color: #127568;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.details a:nth-child(4) {
+  padding: 12px 40px;
+  background-color: #cf7100;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+.box {
+  background-color: #dae9fb;
+  text-align: center;
+}
+.content .last {
+  padding-bottom: 100px;
+}
+.content h1 {
+  color: #444444;
+  font-size: 30px;
+  margin: 100px auto 0px;
+  display: inline-block;
+}
+.content p {
+  font-size: 20px;
+  line-height: 38px;
+  width: 51%;
+  margin: 20px auto 0px;
+}
+
+.content img {
+  margin-top: 50px;
+  width: 80%;
+}
+.content a {
+  cursor: pointer;
+  color: #0385c8;
+}
+.content a:hover {
+  color: #e35d11;
+}
+
+.info {
+  background-color: #00418d;
+}
+.information {
+  width: 70%;
+  margin: auto;
+}
+
+.info .information h2 {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  padding-top: 100px;
+}
+.info .information h1 {
+  font-size: 35px;
+  color: white;
+  width: 65%;
+  padding-top: 40px;
+}
+.pera::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.info .pera .left {
+  width: 50%;
+  float: left;
+}
+.info .pera .left p {
+  color: white;
+  margin-top: 70px;
+  line-height: 30px;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+.info .pera .right {
+  width: 40%;
+  float: left;
+  padding: 50px;
+}
+.info .pera .right li {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.info .pera .right h3 {
+  font-size: 40px;
+  padding: 10px;
+}
+.info .left a {
+  color: white;
+  padding: 20px 60px;
+  border-radius: 5px;
+}
+.information a:hover {
+  background-color: #003772;
+}
+.form {
+  background-image: url(../img/background-dental-tool-2.jpg);
+  width: 100%;
+  height: 150vh;
+}
+.form .form2 {
+  width: 60%;
+  margin: 0px auto;
+}
+.form h1 {
+  padding-top: 100px;
+  font-size: 40px;
+  color: #333333;
+  padding-bottom: 40px;
+}
+.form a {
+  padding: 28px 440px 28px 20px;
+  background-color: #dceaf9;
+  font-size: 19px;
+  color: #0385c8;
+  margin-top: 10px;
+  display: block;
+}
+.form a:hover {
+  color: #cf7100;
+}
+.form3 {
+  width: 35%;
+  margin: 100px auto;
+}
+.form3::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.form3 a:nth-child(1) {
+  padding: 20px 40px;
+  width: 150px;
+  background-color: #003772;
+  color: white;
+  display: block;
+  float: left;
+  border-radius: 5px;
+}
+.form3 a:nth-child(2) {
+  padding: 20px 40px;
+  width: 150px;
+  background-color: #003772;
+  color: white;
+  display: block;
+  float: right;
+  border-radius: 5px;
+}
